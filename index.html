@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Banking Form</title>
+  <link rel="stylesheet" type="text/css" href="validation.css" />
+</head>
+<body>
+<form>
+  First Name:<br>
+  <input type="text" name="firstname" required /><br>
+  Middle Initial:<br>
+  <input type="text" name="middleinitial" required /><br>
+  Last Name: <br>
+  <input type="text" name="lastname" required /><br>
+  Address:<br>
+  <input type="text" name="address" required /><br>
+  Occupation:<br>
+  <input type="text" name="occupation" required /><br>
+  Employer:<br>
+  <input type="text" name="employer" required /><br>
+  Employer Address:<br>
+  <input type="text" name="employeraddress" required /><br>
+  Type of Loan:<br>
+  <select name="loantype" form="Loan Form"/><br>
+    <option value="commercial">Commercial</option>
+    <option value="realestate">Real Estate</option>
+    <option value="personal">Personal</option>
+    <option value="mortgage">Mortgage</option>
+    </select>
+    <br>
+
+  Requested Amount of Loan:<br>
+  <input type="text" name="amount"/><br>
+
+  Length of Loan:<br>
+  <input type="radio" name="loanlength" value="5years"> 5 Years<br>
+  <input type="radio" name="loanlength" value="10years"> 10 Years<br>
+  <input type="radio" name="loanlength" value="15years"> 15 Years<br>
+
+  Special Conditions:<br>
+  <input type="checkbox" name="specialcondition" value="downpayment">Down Payment<br>
+  <input type="checkbox" name="specialcondition" value="OutOfStateResident">Out-of-State Resident<br>
+  <input type="checkbox" name="specialcondition" value="married">Married<br>
+  <input type="checkbox" name="specialcondition" value="co-signed">Co-Signer<br>
+  Additional Comments:<br>
+  <textarea></textarea>
+  <br>
+  <strong>Contact Information:</strong><br>
+  Email:<br>
+  <input type="email" name="emailaddress" required ><br>
+  Phone Number:<br>
+  <input type="text" name="telephonenumber" required ><br>
+  LinkedIn URL:<br>
+  <input type="URL" name="LinkedInURL" required ><br>
+
+</form>
+</body>
+</html>
